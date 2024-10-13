@@ -1,0 +1,52 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .loan-suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .loan-suggestion-box {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .loan-suggestion-box img {
+    display: block;
+    margin: 0 auto 10px;
+    margin-bottom: 50px;
+  }
+  
+  .loan-suggestion-box h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .loan-suggestion-box p {
+    font-size: 1em;
+    margin: 5px 0;
+    text-align: center;
+  }
